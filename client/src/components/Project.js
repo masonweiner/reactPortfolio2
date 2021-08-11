@@ -13,11 +13,11 @@ const projectStyle = {
 const cardStyle = {
   display: "flex",
   margin: "40px",
-  border: "10px solid #59C9A5",
+  border: "3px solid #FFFCFF",
   width: "400px",
   height: "300px",
-  backgroundColor: "#3B2C35",
-  color: "#59C9A5",
+  backgroundColor: "#121211",
+  color: "#5EB1BF",
 };
 
 const imgStyle = {
@@ -42,7 +42,7 @@ function Project() {
         </a>
         <a href="https://masonweiner.github.io/Yoda_Speak_Quiz/">
           <div className="card" style={cardStyle}>
-            <div className="card-header">Yoda Speak Quiz</div>
+            <p className="card-header">Yoda Speak Quiz</p>
             <img
               src={yoda}
               className="card-img-top"

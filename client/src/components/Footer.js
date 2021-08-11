@@ -1,34 +1,41 @@
 import React from "react";
-const footerStyle = {
-  backgroundColor: "#56E39F",
-  border: "5px solid #3B2C35",
-  display: "flex",
-  flexWrap: "wrap",
-  borderRadius: "5px",
-};
+import resume from "./assets/resume.pdf";
+// const footerStyle = {
+//   backgroundColor: "#121211",
+//   display: "flex",
+//   flexWrap: "wrap",
+//   borderRadius: "5px",
+//   justifyContent: "center",
+// };
 const btnStyle = {
-  backgroundColor: "#3B2C35",
-  padding: "15px",
+  backgroundColor: "#FFFCFF",
+  border: "3px solid #5EB1BF",
+  padding: "20px",
+  margin: "30px",
   fontSize: "20px",
-  color: "#56E39F",
+  color: "#121211",
   borderRadius: "25px",
-  border: "5px solid #0390fc",
   width: "200px",
-  flexGrow: "1",
 };
 function Footer() {
   return (
     <>
-      <div className="footer" style={footerStyle}>
-        <a href="https://www.linkedin.com/in/mason-weiner-64ab0220a/">
-          <button style={btnStyle}>LinkedIn</button>
-        </a>
-        <a href="https://github.com/masonweiner">
+      <div>
+        <a href="https://github.com/masonweiner" className="container-fluid">
           <button style={btnStyle}>GitHub</button>
         </a>
-
-        <a href="https://www.instagram.com/mason_weiner/">
-          <button style={btnStyle}>Instagram</button>
+        <a
+          href="https://www.linkedin.com/in/mason-weiner-64ab0220a/"
+          className="container-fluid"
+        >
+          <button style={btnStyle}>LinkedIn</button>
+        </a>
+        <a
+          href={resume}
+          download="mason-weiner-resume"
+          className="container-fluid"
+        >
+          <button style={btnStyle}>Resume</button>
         </a>
       </div>
     </>

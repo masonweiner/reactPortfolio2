@@ -13,23 +13,28 @@ const navStyle = {
   flexDirection: "reverse-row",
   flexWrap: "wrap",
   listStyleType: "none",
+  justifyContent: "center",
+  alignItems: "center",
+  border: "3px solid #FFFCFF",
+  borderRadius: "25px",
+  width: "69%",
 };
 
 const btnStyle = {
-  backgroundColor: "#56E39F",
+  backgroundColor: "#5EB1BF",
   padding: "15px",
-  fontSize: "30px",
-  color: "#3B2C35",
+  fontSize: "200%",
+  color: "#121211",
   borderRadius: "25px",
-  border: "5px solid #0390fc",
-  width: "200px",
+  border: "3px solid #FFFCFF",
+  width: "100%",
 };
 
 function Navigation(props) {
-  const tabs = ["About Me", "Portfolio", "Contact", "Resume"];
+  const tabs = ["About Me", "Portfolio"];
   return (
     <>
-      <ul style={navStyle}>
+      <ul className="navbar navbar-expand-lg" style={navStyle}>
         {tabs.map((tab) => (
           <li key={tab}>
             <a

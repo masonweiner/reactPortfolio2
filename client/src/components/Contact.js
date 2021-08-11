@@ -54,18 +54,18 @@ function Contact() {
   const contactStyle = {};
 
   const h3Style = {
-    color: "#59C9A5",
+    color: "#5EB1BF",
   };
 
   const inputStyle = {
     borderRadius: "15px",
-    border: "4px solid #59C9A5",
+    border: "4px solid #5EB1BF",
     padding: "50px",
   };
 
   const submitStyle = {
-    backgroundColor: "#59C9A5",
-    color: "#3B2C35",
+    backgroundColor: "#5EB1BF",
+    color: "#121211",
   };
 
   return (

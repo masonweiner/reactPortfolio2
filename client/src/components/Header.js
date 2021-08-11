@@ -4,6 +4,7 @@ import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 import Resume from "./Resume";
+import Footer from "./Footer";
 
 // coffee: #3B2C35
 // darkGreen: #5B6C5D
@@ -11,15 +12,16 @@ import Resume from "./Resume";
 // aqua: #56E39F
 //create styles object to carry style settings
 const aqua = { color: "#56E39F" };
-const darkGreen = { color: "#5B6C5D" };
+const darkGreen = { color: "#5EB1BF" };
 const ocean = { color: "#59C9A5" };
 const coffee = { color: "#3B2C35" };
 
 const h1Style = {
   display: "flex",
   width: "50%",
-  color: "#56E39F",
-  fontSize: "px",
+  color: "#5EB1BF",
+  fontSize: "690%",
+  textShadow: "-2px 0 #FFFCFF, 0 2px #FFFCFF",
 };
 
 const headerStyle = {
@@ -27,16 +29,25 @@ const headerStyle = {
   flexDirection: "row",
   flexWrap: "wrap",
   height: "85%",
+  justifyContent: "center",
+};
+
+const footerStyle = {
+  backgroundColor: "#121211",
+  display: "flex",
+  justifyContent: "center",
 };
 
 const navStyle = {
   display: "flex",
   flexDirection: "row",
   flexWrap: "wrap",
+  alignItems: "center",
+  justifyContent: "center",
 };
 
 const highlightStyle = {
-  backgroundColor: "#3B2C35",
+  backgroundColor: "#121211",
 };
 function Header() {
   // Using useState, set the default value for currentPage to 'About Me'
@@ -58,7 +69,7 @@ function Header() {
     }
   };
   return (
-    <header className="header container-fluid" style={headerStyle}>
+    <header className="header jumbotron jumbotron-fluid" style={headerStyle}>
       <h1 className="card-text" style={h1Style}>
         Mason Weiner
       </h1>
@@ -77,6 +88,10 @@ function Header() {
           </div>
         </nav>
       </div>
+      <Footer
+        className="footer container-fluid fixed-bottom"
+        style={footerStyle}
+      />
     </header>
   );
 }
