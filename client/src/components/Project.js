@@ -65,10 +65,16 @@ function Project() {
             style={a}
             href="https://whispering-fortress-31426.herokuapp.com/"
             className="card-header"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Deployed
           </a>
-          <a href="https://whispering-fortress-31426.herokuapp.com/">
+          <a
+            href="https://whispering-fortress-31426.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src={ford}
               className="card-img-top"
@@ -80,6 +86,8 @@ function Project() {
             style={a}
             href="https://github.com/strong-one/Ford-Finder-2021"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Repository
           </a>
@@ -110,10 +118,16 @@ function Project() {
             style={a}
             href="https://shielded-badlands-79819.herokuapp.com/"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Deployed
           </a>
-          <a href="https://shielded-badlands-79819.herokuapp.com/">
+          <a
+            href="https://shielded-badlands-79819.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src={envelopes}
               className="card-img-top"
@@ -125,6 +139,8 @@ function Project() {
             style={a}
             href="https://github.com/forbegos/Envelopes"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Repository
           </a>
@@ -154,10 +170,16 @@ function Project() {
             style={a}
             href="https://tibegex.github.io/Yoda_Speak_Quiz/"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Deployed
           </a>
-          <a href="https://tibegex.github.io/Yoda_Speak_Quiz/">
+          <a
+            href="https://tibegex.github.io/Yoda_Speak_Quiz/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src={yoda}
               className="card-img-top"
@@ -169,6 +191,8 @@ function Project() {
             style={a}
             href="https://github.com/Tibegex/Yoda_Speak_Quiz"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Repository
           </a>
@@ -199,10 +223,16 @@ function Project() {
             style={a}
             href="https://floating-ocean-41077.herokuapp.com/?id=60da876b2eeb1d00158d1902"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Deployed
           </a>
-          <a href="https://floating-ocean-41077.herokuapp.com/?id=60da876b2eeb1d00158d1902">
+          <a
+            href="https://floating-ocean-41077.herokuapp.com/?id=60da876b2eeb1d00158d1902"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src={workout}
               className="card-img-top"
@@ -214,6 +244,8 @@ function Project() {
             style={a}
             href="https://github.com/masonweiner/workout-tracker"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Repository
           </a>
@@ -241,10 +273,16 @@ function Project() {
             style={a}
             href="https://masonweiner.github.io/workday-scheduler/"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Deployed
           </a>
-          <a href="https://masonweiner.github.io/workday-scheduler/">
+          <a
+            href="https://masonweiner.github.io/workday-scheduler/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <img
               src={day}
               className="card-img-top"
@@ -256,6 +294,8 @@ function Project() {
             style={a}
             href="https://github.com/masonweiner/workout-tracker"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Repository
           </a>
@@ -290,6 +330,8 @@ function Project() {
             style={a}
             href="https://github.com/masonweiner/readme-generator"
             className="card-footer"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Repository
           </a>

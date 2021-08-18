@@ -21,12 +21,19 @@ function Footer() {
   return (
     <>
       <div>
-        <a href="https://github.com/masonweiner" className="container-fluid">
+        <a
+          href="https://github.com/masonweiner"
+          className="container-fluid"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
           <button style={btnStyle}>GitHub</button>
         </a>
         <a
           href="https://www.linkedin.com/in/mason-weiner-64ab0220a/"
           className="container-fluid"
+          target="_blank"
+          rel="noreferrer noopener"
         >
           <button style={btnStyle}>LinkedIn</button>
         </a>
