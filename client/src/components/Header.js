@@ -44,6 +44,7 @@ const navStyle = {
   flexWrap: "wrap",
   alignItems: "center",
   justifyContent: "center",
+  minHeight: "690px",
 };
 
 const highlightStyle = {

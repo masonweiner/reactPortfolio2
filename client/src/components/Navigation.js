@@ -15,7 +15,7 @@ const navStyle = {
   listStyleType: "none",
   justifyContent: "center",
   alignItems: "center",
-  border: "3px solid #FFFCFF",
+  border: "3px solid #5EB1BF",
   borderRadius: "25px",
   width: "69%",
 };

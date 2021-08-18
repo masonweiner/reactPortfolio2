@@ -9,7 +9,7 @@ const coffee = { color: "#3B2C35" };
 const cardStyle = {
   display: "flex",
   margin: "40px",
-  border: "4px solid #FFFCFF",
+  border: "4px solid #5EB1BF",
   width: "269px",
   height: "300px",
   backgroundColor: "#121211",
