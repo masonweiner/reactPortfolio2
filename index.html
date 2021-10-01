@@ -1,1 +1,347 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/reactPortfolio2/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/reactPortfolio2/logo192.png"/><link rel="manifest" href="/reactPortfolio2/manifest.json"/><title>React App</title><link href="/reactPortfolio2/static/css/2.d45d6843.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,l,i=t[0],f=t[1],a=t[2],p=0,s=[];p<i.length;p++)l=i[p],Object.prototype.hasOwnProperty.call(o,l)&&o[l]&&s.push(o[l][0]),o[l]=0;for(n in f)Object.prototype.hasOwnProperty.call(f,n)&&(e[n]=f[n]);for(c&&c(t);s.length;)s.shift()();return u.push.apply(u,a||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,i=1;i<r.length;i++){var f=r[i];0!==o[f]&&(n=!1)}n&&(u.splice(t--,1),e=l(l.s=r[0]))}return e}var n={},o={1:0},u=[];function l(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,l),r.l=!0,r.exports}l.m=e,l.c=n,l.d=function(e,t,r){l.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},l.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},l.t=function(e,t){if(1&t&&(e=l(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(l.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)l.d(r,n,function(t){return e[t]}.bind(null,n));return r},l.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return l.d(t,"a",t),t},l.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},l.p="/reactPortfolio2/";var i=this.webpackJsonpclient=this.webpackJsonpclient||[],f=i.push.bind(i);i.push=t,i=i.slice();for(var a=0;a<i.length;a++)t(i[a]);var c=f;r()}([])</script><script src="/reactPortfolio2/static/js/2.34f254f2.chunk.js"></script><script src="/reactPortfolio2/static/js/main.9f6a70ba.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to normalize.css -->
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <!-- Link to style.css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio - MW</title>
+  </head>
+  <body>
+    <div class="body">
+      <div class="navbar">
+        <h2>Mason Weiner</h2>
+        <p>
+          <a href="#projects"><button class="btn btn-dark">Projects</button></a>
+          <a
+            href="./assets/images/resume.pdf"
+            download="mw-resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><button class="btn btn-dark">Resume</button></a
+          >
+        </p>
+      </div>
+      <div class="about">
+        <h3 class="container-fluid" id="about">About Me</h3>
+        <img
+          class="mason"
+          src="./assets/images/mason.jpeg"
+          alt="Photo of Mason Weiner"
+        />
+        <div class="container-fluid">
+          <p>
+            I am a full stack web developer looking to begin my software
+            development career. I recently graduated the University of Denver
+            full stack web development program.
+          </p>
+          <p>
+            I am finishing the final few credits for my Bachelor of Arts in
+            Communication Arts from University of Wisconsin at Madison.
+          </p>
+          <p>
+            I am looking to assume a full-time position in the meantime, and am
+            available to start at any time.
+          </p>
+          <p>
+            Technical skills: HTML, CSS, Javascript, jQuery, React, Express,
+            Java, MySQL, NoSQL, MongoDB, GraphQL, bcrypt, Bootstrap, and more
+            npm packages
+          </p>
+        </div>
+        <div class="container-fluid contact">
+          <a
+            href="./assets/images/resume.pdf"
+            download="mw-resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footbtn"
+            ><button class="btn btn-dark">Resume</button></a
+          >
+          <a
+            href="https://www.linkedin.com/in/mason-weiner-64ab0220a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footbtn"
+            ><button class="btn btn-dark">LinkedIn</button></a
+          >
+          <a
+            href="https://github.com/masonweiner"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footbtn"
+            ><button class="btn btn-dark">GitHub</button></a
+          >
+          <a
+            href="mailto: masonbdm@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="footbtn"
+            ><button class="btn btn-dark">Email</button></a
+          >
+        </div>
+      </div>
+      <div class="projects">
+        <h3 class="container-fluid" id="projects">Projects</h3>
+        <!-- Ford Finder -->
+        <div class="card" id="card">
+          <p class="card-header">Ford Finder</p>
+          <p class="card-body">
+            An app that allows users to find new Ford models and access
+            information about them.
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Ford Finder</p>
+          <img src="./assets/images/ford.png" alt="Ford Finder web page" />
+          <p class="container-fluid">
+            <a
+              href="https://whispering-fortress-31426.herokuapp.com/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Deployed</a
+            >
+            |
+            <a
+              href="https://github.com/strong-one/Ford-Finder-2021"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Ford Finder</p>
+          <p class="card-title">Technologies Used:</p>
+          <p class="card-body">
+            Bcrypt, Heroku, Sequelize, dotenv, Express.js, Handlebars.js, mysql,
+            CSS, Bootstrap, and Bootswatch
+          </p>
+        </div>
+        <!-- Envelopes -->
+        <div class="divider"></div>
+        <div class="card" id="card">
+          <p class="card-header">Envelopes</p>
+          <p class="card-body">
+            Envelopes is a service that allows you to keep track of your budget
+            using virtual enveloping system. Users can login and sign up for
+            accounts that pull up envelope cards and update transactions in the
+            database.
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Envelopes</p>
+          <img src="./assets/images/envelopes.png" alt="Envelopes web page" />
+          <p class="container-fluid">
+            <a
+              href="https://shielded-badlands-79819.herokuapp.com/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Deployed</a
+            >
+            |
+            <a
+              href="https://github.com/forbegos/Envelopes"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Envelopes</p>
+          <p class="card-title">Technologies Used:</p>
+          <p class="card-body">
+            React, GraphQL, Node.js and Express.js server, MongoDB, Mongoose ODM
+            database, Heroku deployment, JSON Web Token authentication
+          </p>
+        </div>
+        <!-- Yoda -->
+        <div class="divider"></div>
+        <div class="card" id="card">
+          <p class="card-header">Yoda Speak Quiz</p>
+          <p class="card-body">
+            The project allows customers to collect the user’s data for
+            marketing and research purposes. Also, provides users a chance to
+            know what Yoda has to say about them based on their input.
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Yoda Speak Quiz</p>
+          <img src="./assets/images/yoda.png" alt="Yoda Speak Quiz web page" />
+          <p class="container-fluid">
+            <a
+              href="https://tibegex.github.io/Yoda_Speak_Quiz/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Deployed</a
+            >
+            |
+            <a
+              href="https://github.com/Tibegex/Yoda_Speak_Quiz"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Yoda Speak Quiz</p>
+          <p class="card-title">Technologies Used:</p>
+          <p class="card-body">
+            HTML, CSS, vanilla Javascript, jQuery, Bootstrap, multiple third
+            party APIs
+          </p>
+        </div>
+        <!-- Workout Tracker -->
+        <div class="divider"></div>
+        <div class="card" id="card">
+          <p class="card-header">Workout Tracker</p>
+          <p class="card-body">
+            Using already created front end elements, I created the routes and
+            the schema to perform CRUD operations on a mongodb database. I used
+            the aggregate function to add up and return the workout time
+            dynamically.
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Workout Tracker</p>
+          <img
+            src="./assets/images/workout.png"
+            alt="Workout Tracker web page"
+          />
+          <p class="container-fluid">
+            <a
+              href="https://floating-ocean-41077.herokuapp.com/?id=60da876b2eeb1d00158d1902"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Deployed</a
+            >
+            |
+            <a
+              href="https://github.com/masonweiner/workout-tracker"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Workout Tracker</p>
+          <p class="card-title">Technologies Used:</p>
+          <p class="card-body">
+            Node.js, Express.js, Mongoose, Morgan, MongoDB, Heroku
+          </p>
+        </div>
+        <!-- Day Planner -->
+        <div class="divider"></div>
+        <div class="card" id="card">
+          <p class="card-header">Day Planner</p>
+          <p class="card-body">
+            This is an app that allows you to schedule activities for the
+            current day while saving data to local storage
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Day Planner</p>
+          <img src="./assets/images/workday.png" alt="Day Planner web page" />
+          <p class="container-fluid">
+            <a
+              href="https://masonweiner.github.io/workday-scheduler/"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Deployed</a
+            >
+            |
+            <a
+              href="https://github.com/masonweiner/workday-scheduler"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">Day Planner</p>
+          <p class="card-title">Technologies Used:</p>
+          <p class="card-body">jQuery, Bootstrap, moment.js, local storage</p>
+        </div>
+        <!-- README Generator -->
+        <div class="divider"></div>
+        <div class="card" id="card">
+          <p class="card-header">README Generator</p>
+          <p class="card-body">
+            This is a command line application that asks for user input and uses
+            it to create a professional README.md file.
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">README Generator</p>
+          <img src="./assets/images/readme.png" alt="README" />
+          <p class="container-fluid">
+            <a
+              href="https://github.com/masonweiner/readme-generator"
+              class="link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+          </p>
+        </div>
+        <div class="card" id="card">
+          <p class="card-header">README Generator</p>
+          <p class="card-title">Technologies Used:</p>
+          <p class="card-body">Javascript, Inquirer, File System</p>
+        </div>
+      </div>
+      <footer class="footer container-fluid">
+        <a
+          href="https://www.linkedin.com/in/mason-weiner-64ab0220a/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footbtn"
+          ><button class="btn btn-light">LinkedIn</button></a
+        >
+        <a
+          href="https://github.com/masonweiner"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footbtn"
+          ><button class="btn btn-light">GitHub</button></a
+        >
+        <a
+          href="mailto: masonbdm@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="footbtn"
+          ><button class="btn btn-light">Email</button></a
+        >
+      </footer>
+    </div>
+  </body>
+</html>

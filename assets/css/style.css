@@ -1,0 +1,108 @@
+* {
+  font-family: "Bona Nova", serif;
+}
+
+.body {
+  background-color: #2b2d2f;
+  color: #fffafa;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: none;
+  max-width: 40%;
+  border-radius: 15px;
+  color: #fffafa;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #4a4d50;
+  margin-bottom: 1%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background-color: #4a4d50;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.card {
+  display: flex;
+  margin: 1%;
+  border: 3px solid #2b2d2f;
+  flex-basis: 30%;
+  color: #4a4d50;
+  background-color: #7463bd;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footbtn {
+  margin: 2%;
+}
+.mason {
+  margin: 15px;
+  max-width: 300px;
+  flex-basis: 40%;
+}
+.card-title {
+  margin-top: 2%;
+}
+.link {
+  font-weight: bold;
+  color: #fffafa;
+  font-size: 130%;
+  text-shadow: 2px 2px 2px 2px #2b2d2f;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
+
+.divider {
+  border-bottom: 2px dashed #7463bd;
+  flex-basis: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#card {
+  background-color: #7463bd;
+  color: #fffafa;
+}
+
+h3 {
+  color: #7463bd;
+  font-size: large;
+}
+
+#about {
+  border-bottom: 2px dashed #7463bd;
+}
+
+#projects {
+  border-bottom: 2px dashed #7463bd;
+}
+
+@media only screen and (max-width: 900px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
